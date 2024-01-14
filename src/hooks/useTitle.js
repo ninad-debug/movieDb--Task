@@ -1,9 +1,9 @@
 import { useEffect } from "react";
 
 export const useTitle = (title) => {
-    useEffect(()=>{
-        document.title = `${title} / Cinemate`
-    });
+  useEffect(() => {
+    document.title = `${title} / MovieDb`;
+  });
 
   return null;
-}
+};
