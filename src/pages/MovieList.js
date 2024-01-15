@@ -24,6 +24,7 @@ export const MovieList = ({ apiPath, title }) => {
       setData(json.results);
     }
     fetchMovies();
+    window.scrollTo(0, 0);
   }, [url]);
 
   useTitle(title);

@@ -11,6 +11,7 @@ export const useFetch = (apiPath, queryTerm = "", currentPage) => {
       setData(json.results);
     }
     fetchMovies();
+    window.scrollTo(0, 0);
   }, [url]);
 
   return { data };
